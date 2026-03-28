@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Aula 02 FontEnd - Elementos da página</title>
+</head>
+
+<body>
+
+    <header>
+        <h1>Minha loja</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#conteúdo">Conteúdo</a></li>
+                <li><a href="imagem">Imagem</a></li>
+                <li><a href="formulário">formulário</a></li>
+                <li><a href="tabela">Tabela </a></li>
+            </ul>
+        </nav>
+    </header>
+    <main id="Início">
+        <section id="conteudo">
+            <h2> Seção de Conteúdo</h2>
+            <p>Este é um paragrafo de uma seção</p>
+            <article>
+                <h3> Artigo 1</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Hic commodi expedita officia optio, rem,
+                    nisi, id soluta quos ducimus inventore vel incidunt. Dolorem, ipsam similique est adipisci id
+                    consequuntur? Unde!
+                    Illo, quibusdam similique alias, voluptatem quas magni aliquid ea provident recusandae eaque
+                    veritatis quos placeat fugit magnam earum illum excepturi adipisci mollitia quasi nam nihil fuga
+                    nisi cumque? Sit, cum.
+                    Quos assumenda sequi non? Nulla aliquid tenetur, laborum maiores labore repellendus reiciendis nisi
+                    commodi eligendi dolorem. Deleniti voluptatibus debitis doloremque sequi omnis non? Provident
+                    ducimus nulla nobis, nihil facilis voluptate.
+                    Exercitationem, labore voluptatem. Saepe officia iusto quae eaque rem perspiciatis ut fugit corrupti
+                    ipsum voluptate! Nihil numquam minima nostrum totam tempore, aperiam ea quia delectus omnis
+                    veritatis. Ratione, ea facere.
+                    Rerum aut eveniet veniam quam odio, ipsam repudiandae? Illo ipsa eaque, obcaecati enim modi atque.
+                    Voluptate facilis dignissimos molestias, ad delectus omnis, officia qui sunt ab atque eos quis hic.
+                    Molestiae accusantium nemo unde totam, facere esse assumenda laborum, a quidem quos cumque
+                    laboriosam porro corrupti culpa ipsum quaerat dolores voluptatibus repellendus deleniti velit?
+                    Doloribus consectetur laboriosam adipisci enim reprehenderit?
+                    Adipisci doloremque neque est, illo soluta assumenda velit voluptate at officiis, consequatur
+                    perspiciatis consectetur. Dicta dolores excepturi reprehenderit nam quos minus quibusdam tempore,
+                    error, vel illo dolore, magni beatae nisi.
+                    Nostrum dignissimos amet ipsa nam quidem minus repellat obcaecati doloribus eligendi, fuga hic quas
+                    officiis sit, at, non quisquam eaque. Dolor libero architecto fugit distinctio, dicta ratione?
+                    Sequi, asperiores accusamus.
+                    Iste voluptates, officia aspernatur dicta tenetur cum, nesciunt maxime quae libero suscipit
+                    provident delectus omnis, voluptatibus consequuntur voluptas quaerat beatae exercitationem molestiae
+                    quia repellendus dolore? Quaerat alias cum vitae ipsum!
+                    Ipsam consectetur ullam, accusamus natus libero nam obcaecati voluptatem nulla, ab officiis itaque
+                    quia. Reiciendis, nobis maxime! Culpa provident neque adipisci, quo iusto est rem vero quae impedit
+                    obcaecati harum.</p>
+
+                <h4> Lista não ordenada</h4>
+                <ul>
+                    <li>Item1</li>
+                    <li>Item2</li>
+                    <li>item3</li>
+                </ul>
+                <h4>Lista ordenada</h4>
+                <ol>
+                    <li>Primeiro item</li>
+                    <li>Segundo item</li>
+                    <li>Terceiro item</li>
+                </ol>
+            </article>
+        </section>
+        <section id="imagem">
+            <h2>Galeria</h2>
+            <article>
+                <h3> imagem de exemplo</h3>
+                <img src="img/skate.jpg" alt="imagem de skate">
+                <p>Esta imagem está dentro de uma seção</p>
+            </article>
+
+        </section>
+        <aside>
+            <h3>Conteúdo Lateral</h3>
+            <p>Informações iniciais, propagandas e links</p>
+        </aside>
+        <section id="Formulário">
+            <h2>Formulário:</h2>
+
+            <form action="" method="post" enctype="multipart/form-data">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" name="nome" maxlength="50" minlength="3" size="30" required>
+                <br><br>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email">
+                <br></br>
+
+                <label for="senha">Senha</label>
+                <input type="password" id="Senha">
+                <br></br>
+                <label for="idade">Idade</label>
+                <input type="number" name="idade" id="idade">
+                <br></br>
+                <p>Sexo:</p>
+                <input type="radio" name="Sexo" id="Sexo">
+                <label for="Sexo">Masculino</label>
+                <input type="radio" name="Sexo" id="Sexo">
+                <label for="Sexo">Feminino</label>
+                <input type="radio" name="Sexo" id="Sexo">
+                <label for="Sexo">Outros</label>
+                <p>Peças de skate</p>
+                <input type="checkbox" name="Rolamento" id="Rolamento">
+                <label for="Rolamento">Rolamento</label>
+                <input type="checkbox" name="Skate" id="Skate">
+                <label for="Skate">Skate</label>
+                <input type="checkbox" name="Roda" id="Roda">
+                <label for="Roda">Roda</label>
+                <br><br>
+                <label for="Cidade Lojas"> Cidade lojas:</label>
+                <select name="cidade" id="cidade">
+                    <option value="Selecione"></option>
+                    <option value="Rio de janeiro">Rio de janeiro</option>
+                    <option value="São Paulo">São Paulo</option>
+                    <option value="Paraiba">Paraiba</option>
+                </select>
+                <br><br>
+                <label for="mensagens">Mensagens:</label><br>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <br><br>
+                <button type="submit">Enviar</button><br>
+                <br>
+                <button type="reset">Limpar</button><br>
+
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>@2026 - Minha loja de skate </p>
+    </footer>
+
+</html>
+</body>
